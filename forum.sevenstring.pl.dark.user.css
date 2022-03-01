@@ -1,0 +1,362 @@
+body {
+    background: #222222 none repeat scroll 0 0;
+}
+
+div.spoiler {
+    color: #8AA68A;
+}
+
+a:link,
+a:visited {
+    color: #AFC8BF;
+    text-decoration: none
+}
+
+a:hover {
+    color: #809D6E;
+    text-decoration: underline
+}
+
+a.new_win:link,
+a.new_win:visited {
+    color: #AFC8BF;
+    text-decoration: none
+}
+
+a.new_win:hover {
+    color: #809D6E;
+    text-decoration: underline
+}
+
+body,
+td,
+th,
+tr {
+    color: #8AA68A
+}
+
+input,
+button,
+select,
+textarea {
+    background: #323232;
+    border: 1px solid #8AA68A;
+    color: #8AA68A;
+}
+
+.button_submit,
+.button_reset {
+    background: #323232;
+    border: 1px solid #8AA68A;
+}
+
+input:hover,
+textarea:hover,
+button:hover,
+select:hover {
+    border: 1px solid #8AA68A
+}
+
+.button_submit:hover,
+.button_reset:hover {
+    border: 1px solid #8AA68A;
+    background: #454545
+}
+
+input[disabled].input_text {
+    background-color: #222222
+}
+
+hr,
+.hrcolor {
+    color: #8AA68A;
+    background-color: #8AA68A
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #AFC8BF;
+}
+
+fieldset legend {
+    font-weight: bold;
+    color: #8AA68A
+}
+
+blockquote.bbc_standard_quote,
+blockquote.bbc_alternate_quote {
+    color: #8AA68A;
+    border-top: 2px solid #806969;
+    border-bottom: 2px solid #806969;
+}
+
+blockquote.bbc_standard_quote {
+    background-color: #353535
+}
+
+blockquote.bbc_alternate_quote {
+    background-color: #404040
+}
+
+code.bbc_code {
+    background: #484848;
+    border-top: 2px solid #806969;
+    border-bottom: 2px solid #806969;
+}
+
+.codeheader,
+.quoteheader {
+    color: #809D6E;
+}
+
+.bbc_link:link,
+.bbc_link:visited {
+    border-bottom: 1px solid #AFC8BF
+}
+
+.bbc_link:hover {
+    border-bottom: 1px solid #809D6E
+}
+
+.highlight {
+    color: #ff7200!important;
+}
+
+.highlight2 {
+    background-color: #d1e1ef;
+    color: #000!important
+}
+
+.titlebg,
+.titlebg2,
+tr.titlebg th,
+tr.titlebg td,
+tr.titlebg2 td {
+    color: #8AA68A;
+    background-color: #323232;
+}
+
+tr.titlebg th a:link,
+tr.titlebg th a:visited,
+tr.titlebg2 td a:link,
+tr.titlebg2 td a:visited {
+    color: #8AA68A
+}
+
+tr.catbg th a:link,
+tr.catbg th a:visited,
+tr.catbg2 td a:link,
+tr.catbg2 td a:visited {
+    color: #AFC8BF
+}
+
+.windowbg,
+#preview_body {
+    color: #8AA68A;
+    background-color: #323232
+}
+
+.windowbg2 {
+    color: #8AA68A;
+    background-color: #282828
+}
+
+.windowbg3 {
+    color: #AFC8BF;
+    background-color: #424224
+}
+
+.approvebg {
+    color: #8AA68A;
+    background-color: #323232
+}
+
+.approvebg2 {
+    color: #8AA68A;
+    background-color: #282828
+}
+
+.approvetbg {
+    color: #8AA68A;
+    background-color: #323232
+}
+
+.approvetbg2 {
+    color: #8AA68A;
+    background-color: #282828
+}
+
+.stickybg {
+    background: #424242
+}
+
+.stickybg2 {
+    background: #454545
+}
+
+.lockedbg {
+    color: #79A479;
+    background: #282828;
+    font-style: italic
+}
+
+.lockedbg2 {
+    color: #79A479;
+    background: #222222;
+    font-style: italic
+}
+
+.description,
+.description_board,
+.plainbox {
+    border: 1px solid #282828;
+    background: #323232;
+}
+
+.information {
+    border: 1px solid #282828;
+    background: #323232;
+}
+
+h3.titlebg a,
+h3.titlebg,
+h4.titlebg,
+h4.titlebg a {
+    color: #8AA68A
+}
+
+div.title_bar {
+    background: #323232;
+}
+
+div.title_barIC {
+    background: #323232;
+}
+
+div.title_barIC h4.titlebg {
+    background: #323232
+}
+
+.table_grid tr.catbg,
+.table_grid tr.titlebg {
+    font-size: .95em;
+    border-bottom: 1px solid #323232
+}
+
+table.table_grid td {
+    border-bottom: 1px solid #111111;
+    border-right: 1px solid #111111
+}
+
+.windowbg {
+    background: #323232
+}
+
+.windowbg span.topslice {
+    background: #323232
+}
+
+.windowbg span.topslice span {
+    background: #323232
+}
+
+.windowbg span.botslice {
+    background: #323232
+}
+
+.windowbg span.botslice span {
+    background: #323232
+}
+
+.windowbg2 {
+    background: #282828
+}
+
+.windowbg2 span.topslice {
+    background: #282828
+}
+
+.windowbg2 span.topslice span {
+    background: #282828
+}
+
+.windowbg2 span.botslice {
+    background: #282828
+}
+
+.windowbg2 span.botslice span {
+    background: #282828
+}
+
+.roundframe {
+    background: #282828;
+    border-left: 1px solid #282828;
+    border-right: 1px solid #282828
+}
+
+span.upperframe {
+    background: #282828
+}
+
+span.upperframe span {
+    background: #282828
+}
+
+span.lowerframe {
+    background: #282828
+}
+
+span.lowerframe span {
+    background: #282828
+}
+
+#content_section {
+    background: #282828
+}
+
+#upper_section {
+    background: #282828;
+}
+
+#mlist table tbody td.windowbg2 {}
+
+.table_list tbody.content td.children {
+    color: #888888;
+}
+
+.table_list tbody.content td.info a.subject {
+    color: #AFC8BF
+}
+
+#smfFadeScroller {
+    color: #8AA68A
+}
+
+.poster h4,
+.poster h4 a {
+    color: #AFC8BF
+}
+
+.modifybutton {
+    color: #AFC8BF
+}
+
+ul.quickbuttons a:hover {
+    color: #AFC8BF
+}
+
+#postMoreOptions {
+    border-bottom: 1px solid #454545;
+}
+
+.likes_box {
+    border-color: #8AA68A;
+}
+
+.like_post {
+    border-color: #8AA68A;
+}
