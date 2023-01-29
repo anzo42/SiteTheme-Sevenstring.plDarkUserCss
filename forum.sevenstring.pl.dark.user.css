@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name         sevenstring.pl dark
+@version      20220529.16.39
+@namespace    userstyles.world/user/frantick
+@description  Ciemny motyw dla forum Sevenstring.pl
+@author       frantick
+@license      No License
+==/UserStyle== */
+
+@-moz-document url-prefix("http://forum.sevenstring.pl/") {
 body {
     background: #222222 none repeat scroll 0 0;
 }
@@ -322,8 +332,6 @@ span.lowerframe span {
     background: #282828;
 }
 
-#mlist table tbody td.windowbg2 {}
-
 .table_list tbody.content td.children {
     color: #888888;
 }
@@ -359,4 +367,10 @@ ul.quickbuttons a:hover {
 
 .like_post {
     border-color: #8AA68A;
+    
+}
+div.branding {
+    filter: invert(86%) hue-rotate(180deg) brightness(105%) contrast(105%);
+    border: 1px solid #fff;
+}    
 }
